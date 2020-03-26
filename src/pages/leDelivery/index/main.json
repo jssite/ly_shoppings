@@ -1,0 +1,7 @@
+{
+    "navigationBarBackgroundColor": "#FF5000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "乐友到家",
+    "onReachBottomDistance": 500,
+    "backgroundColor":"#FF5000"
+}

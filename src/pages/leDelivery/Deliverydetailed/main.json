@@ -1,0 +1,9 @@
+{
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"商品详情",
+    "usingComponents": {
+        "share-button": "plugin://goodsSharePlugin/share-button"
+    }
+
+}

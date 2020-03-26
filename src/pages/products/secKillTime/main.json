@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "限时秒杀",
+    "navigationBarBackgroundColor": "#FF5000",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 500
+}

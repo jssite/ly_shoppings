@@ -1,0 +1,27 @@
+const state = {
+    openId: '1',
+    BASE_APP_INFO: {},
+    BASE_AD_INFO: {},
+    BASE_USER_TOKEN: '',
+    BASE_BABY_INFO: {},
+    search_filter: {},
+    backFilterInfo: null,
+    shopLocation: {},
+    shopgetStoreStaffs: [],
+    logistics_name:'',
+    return_goods: {},
+    service_logistics: {},
+    init_placeholder:{},
+    bobyInfo: {},
+    bodyText: [],
+    userInfo:{},
+    token: '',
+    userInfo: {},
+    fromTag:'',
+    fromSubTag:'',
+    mp_source:'',
+    mp_group_id:'',
+    staff_id:'',
+    mp_shareFromModule:''
+}
+export default state;

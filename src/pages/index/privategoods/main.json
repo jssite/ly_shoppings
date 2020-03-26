@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#B328FF",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText":"专属好货",
+    "backgroundColorTop":"#B328FF",
+    "backgroundColor":"#B328FF",
+    "enablePullDownRefresh": true
+}

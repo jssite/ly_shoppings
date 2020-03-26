@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle":"black",
+  "navigationBarTitleText":"乐砍价",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance":70
+}

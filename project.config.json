@@ -1,0 +1,120 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"enhance": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx8d003ff4973c2ff2",
+	"projectname": "leyou",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.8.0",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "数据报备",
+					"pathName": "pages/userCenter/getgroup/main",
+					"query": "",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群2",
+						"shareName": "lp8oS4K0WimGc37TWbwiLUw8M63RcaurL8B9hz8zYoY@cr4dev",
+						"shareKey": "sTW3bS4CTvH5Nd3lDHJtY7_3prRXN1MYUP6Paslq7osexz5y9zch4eS0Hs6zVWZwqx801vVrP5RzmnZgDcfsoQ~~"
+					}
+				},
+				{
+					"id": 1,
+					"name": "web页面",
+					"pathName": "pages/transferH5/main",
+					"query": "url=https%3A%2F%2Fm.leyou.com.cn%2Fnewspage%3Fid%3D406&utm_source=leyou_xcx&shareFromModule=活动页&staff_id=3401",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "管理",
+					"pathName": "pages/confirm/scancode/manage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "商品详情",
+					"pathName": "pages/goodsdetailed/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "预售订单详情",
+					"pathName": "pages/confirm/precell/detail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "订单列表",
+					"pathName": "pages/confirm/list/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/confirm/presell/confirm/main",
+					"pathName": "pages/confirm/presell/confirm/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "桥接",
+					"pathName": "pages/bridge/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "扫码购",
+					"pathName": "pages/confirm/scancode/manage/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

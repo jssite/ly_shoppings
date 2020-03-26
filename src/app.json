@@ -1,0 +1,184 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/activity/main",
+        "pages/shipAddress/main",
+        "pages/shipAddress/changeAddress/main",
+        "pages/classifyList/classify/main",
+        "pages/shop/shoppingCart/main",
+        "pages/shop/shopSelect/main",
+        "pages/shop/likeShop/main",
+        "pages/user/main",
+        "pages/transferH5/main",
+        "pages/index/privategoods/main",
+        "pages/index/goodsortList/main",
+        "pages/bridge/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "乐友母婴",
+        "navigationBarTextStyle": "black"
+    },
+    "subPackages": [{
+        "root": "pages/userCenter/",
+        "pages": [
+            "returnGoods/main",
+            "returnGoodsLogistics/main",
+            "logistics/main",
+            "login/wxLogin/main",
+            "selectId/main",
+            "babyFiles/main",
+            "setting/main",
+            "invoice/list/main",
+            "invoice/add/main",
+            "coupon/main",
+            "coupon/couponChange/main",
+            "couponCenter/main",
+            "login/password/main",
+            "login/passwordLogin/main",
+            "login/mobileLogin/main",
+            "address/main",
+            "mycollect/main",
+            "barcode/main",
+            "woman/main",
+            "comment/main",
+            "logisticMsg/main",
+            "getgroup/main"
+        ]
+    }, {
+        "root": "pages/confirm/",
+        "pages": [
+            "main",
+            "finish/main",
+            "giftcard/main",
+            "invoice/invoiceEdit/main",
+            "invoice/invoiceSelect/main",
+            "invoice/invoiceList/main",
+            "nousegoods/main",
+            "coupons/main",
+            "orderAdd/main",
+            "list/main",
+            "orderdetails/main",
+            "customerService/main",
+            "cancelgoods/main",
+            "cash/main",
+            "lotComment/main",
+            "scancode/main",
+            "scancode/finish/main",
+            "scancode/order/main",
+            "scancode/ordercode/main",
+            "scancode/manage/main",
+            "scancode/scan/main",
+            "scancode/giftlist/main",
+            "presell/confirm/main",
+            "presell/detail/main"
+            
+        ]
+    }, {
+        "root": "pages/search/",
+        "pages": [
+            "index/main",
+            "filter/main",
+            "leshansong/main",
+            "shop/index/main",
+            "shop/shopDetail/main",
+            "quickGoods/main",
+            "citySelect/main",
+            "salesPromotion/main",
+            "salesDelivery/main"
+        ]
+    },{
+        "root":"pages/leDelivery/",
+        "pages":[
+            "index/main",
+            "Deliverydetailed/main"
+        ]
+    },{
+        "root":"pages/goodsdetailed/",
+        "pages":[
+            "main"
+        ]
+    },{
+        "root":"pages/products/",
+        "pages":[
+            "details/goodsComment/main",
+            "secKillTime/main"
+        ]
+    },{
+        "root":"pages/cutprice/",
+        "pages":[
+            "detailed/main",
+			"cutShare/main",
+            "cutList/main",
+            "myCutPage/main",
+            "cutOrder/main"
+        ]
+    },
+    {
+        "root":"pages/scanShop/",
+        "pages":[
+            "index/main",
+            "search/main"
+        ]
+    },
+    {
+        "root":"pages/sharingEarnings/",
+        "pages":[
+            "search/main",
+             "filter/main",
+            "myCommission/main",
+            "agreement/main",
+            "sharingIndex/main"
+        ]
+    }
+],
+    "tabBar": {
+        "color": "#333333",
+        "selectedColor": "#FF5000",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/main",
+                "iconPath": "static/images/public/tabbar_index_off.png",
+                "selectedIconPath": "static/images/public/tabbar_index_on.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/classifyList/classify/main",
+                "iconPath": "static/images/public/tabbar_classify_off.png",
+                "selectedIconPath": "static/images/public/tabbar_classify_on.png",
+                "text": "分类"
+            },
+            {
+                "pagePath": "pages/activity/main",
+                "iconPath": "static/images/public/tabbar_sale_off@2x.png",
+                "selectedIconPath": "static/images/public/tabbar_sale_on@2x.png",
+                "text": "精选活动"
+            },
+            {
+                "pagePath": "pages/shop/shoppingCart/main",
+                "iconPath": "static/images/public/tabbar_shop_off.png",
+                "selectedIconPath": "static/images/public/tabbar_shop_on.png",
+                "text": "购物车"
+            },
+            {
+                "pagePath": "pages/user/main",
+                "iconPath": "static/images/public/tabbar_user_off.png",
+                "selectedIconPath": "static/images/public/tabbar_user_on.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "为了您更好的购物，请允许获取您当前的地理位置！"
+        }
+    },
+    "plugins": {
+        "goodsSharePlugin": {
+          "version": "3.1.1",
+          "provider": "wx56c8f077de74b07c"
+        }
+    }
+}
